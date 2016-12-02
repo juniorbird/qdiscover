@@ -1,0 +1,31 @@
+{
+  "name": "qanalyze",
+  "version": "0.0.1",
+  "description": "Analyze your QS stats",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "electron src/index.js",
+    "lint": "eslint .",
+    "dev": "npm run lint && electron src/index.js"
+  },
+  "author": "wade@wadearmstrong.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juniorbird/qdiscover.git"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.7.1"
+  },
+  "dependencies": {
+    "electron": "^1.4.10",
+    "preact": "^6.4.0",
+    "preact-photon": "^1.3.0",
+    "preact-redux": "^1.2.0"
+  }
+}
